@@ -63,4 +63,4 @@ do
   r3 <- sweep 0 $ quickC3eck p3
 ```
 
-and then specify the group on the command line as a ghc option: `cabal run --ghc-options=-DGROUP=[0,1] executable`.
+and then specify the group on the command line as a ghc option: `cabal run --ghc-options=-DGROUP=[0,1] executable`. You can also leave out the `#else` branch of the preprocessor macro, in which case an error will be thrown if you forget to specify the groups on the command line.
