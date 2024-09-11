@@ -64,3 +64,15 @@ do
 ```
 
 and then specify the group on the command line as a ghc option: `cabal run --ghc-options=-DGROUP=[0,1] executable`. You can also leave out the `#else` branch of the preprocessor macro, in which case an error will be thrown if you forget to specify the groups on the command line.
+
+# Adding this to my project
+
+Add a `cabal.project` file with these contents:
+
+```
+packages: ./*.cabal
+
+source-repository-package
+    type: git
+    location: https://github.com/Rewbert/not-tasty.git
+```
