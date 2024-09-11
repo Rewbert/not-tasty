@@ -1,7 +1,7 @@
 
 # What is this
 
-Silly little library on the request of @tritlo. This solution is very contrived!
+Silly little library on the request of [Tritlo](https://github.com/Tritlo). This solution is very contrived!
 
 # Why and how
 
